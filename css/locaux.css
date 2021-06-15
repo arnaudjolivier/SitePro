@@ -1,0 +1,51 @@
+@font-face {
+  font-family: 'Segoe UI';
+  src: url('SegoeUI-Bold.woff2') format('woff2'),
+      url('SegoeUI-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+body
+{
+  font-family: 'Segoe UI';
+  font-weight: bold;
+  background-image: url(../images/BackGimage.jpg);
+  background-attachment: fixed;
+}
+
+h1
+{
+  margin-top: 200px;
+  font-size: 3.5em;
+  color: white;
+  font-weight: 100;
+  text-align: center;
+}
+
+h4{
+  color: white;
+  margin-left: 100px;
+  margin-right: 100px;
+  padding-bottom: 20px;
+  text-transform: uppercase;
+}
+
+section
+{
+  margin-top: 50px;
+  text-align: center;
+}
+
+.images_locaux
+{
+  text-align: center;
+  padding-top: 70px;
+}
+
+span{
+  color: #8e32cc;
+  text-decoration: underline;
+  font-style: italic;
+}

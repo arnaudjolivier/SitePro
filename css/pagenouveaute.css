@@ -1,0 +1,28 @@
+body
+{
+  font-family: 'Segoe UI';
+  font-weight: bold;
+  background-image: url(../images/BackGimage.jpg);
+}
+
+p 
+{
+    color: white;
+}
+h2 
+{
+    color: white;
+    text-align: center;
+    padding: 3%;
+}
+h3 
+{
+    color: white;
+    padding: 2%;
+}
+
+span{
+    color: #8e32cc;
+    text-decoration: underline;
+    font-style: italic;
+  }

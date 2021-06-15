@@ -1,0 +1,78 @@
+@font-face {
+  font-family: 'Segoe UI';
+  src: url('SegoeUI-Bold.woff2') format('woff2'),
+      url('SegoeUI-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+body
+{
+  font-family: 'Segoe UI';
+  font-weight: bold;
+  background-image: url(../images/BackGimage.jpg);
+  background-attachment: fixed;
+  background-position: absolute;
+}
+
+h1
+{
+  padding-bottom: 80px;
+  font-size: 3.5em;
+  color: white !important;
+  font-weight: 100;
+  text-align: center;
+}
+
+.productaff
+{
+  text-align: center; 
+  color:white; 
+  border-radius: 10px;
+  box-shadow: 3px 3px rgba(0, 0, 0, 0.24);
+  background-color:#aa56d042;
+  padding: 15px;
+  margin: 10px;
+}
+
+h2
+{
+  color: white;
+}
+
+h3
+{
+  color: white;
+  padding: 10px;
+}
+
+span{
+  color: #8e32cc;
+  text-decoration: underline;
+  font-style: italic;
+}
+
+h4
+{
+  text-align: center;
+  color: white;
+  padding-bottom: 30px;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 10px;
+  grid-row-gap: 1em;
+}
+
+.suppr
+{
+  text-align: right;
+}
+
+.centre
+{
+  text-align: center;
+}

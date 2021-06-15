@@ -1,0 +1,16 @@
+body
+{
+  font-family: 'Segoe UI';
+  font-weight: bold;
+  background-image: url(../images/BackGimage.jpg);
+  background-attachment: fixed;
+  color: white;
+}
+
+h1
+{
+  margin-top: 100px;
+  font-size: 3.5em;
+  font-weight: 100;
+  text-align: center;
+}

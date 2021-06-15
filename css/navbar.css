@@ -1,0 +1,57 @@
+nav
+{
+  margin-right: 40px ;
+}
+
+nav ul
+{
+    list-style-type: none ;
+    display: flex ;
+    flex-direction: row ;
+}
+
+nav li
+{
+    margin-left: auto ;
+    margin-right: auto ;
+    margin-top: 20px ;
+    margin-bottom: 60px ;
+    display: inline-block ;
+}
+
+nav hr
+{
+  margin-top: 60px ;
+}
+
+nav
+{
+  margin-right: 20px;
+  display:flex;
+}
+
+nav a
+{
+    font-size: 1.2em;
+    font-weight: 600;
+    color: #a569bd; ;
+    padding-bottom: 10px;
+    text-decoration: none;
+    width: 100px ;
+    height: 100px ;
+    transition: 1s ;
+    text-shadow: 2px 2px 0px black ;
+}
+
+nav a:hover 
+{
+  color: white ;
+}
+
+h1
+{
+    color: white ;
+}
+.bs-example{
+        margin: 20px;
+    }

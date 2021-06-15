@@ -1,0 +1,47 @@
+Footer
+{
+  margin-right: 40px;
+  margin-top: 80px;
+}
+
+Footer ul
+{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+}
+
+Footer li
+{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+Footer hr
+{
+  margin-top: 60px;
+}
+
+footer
+{
+  margin-right: 20px;
+}
+
+Footer a
+{
+    font-size: 1.5em;
+    color: #a569bd;
+    padding-bottom: 3px;
+    text-decoration: none;
+    width: 100px;
+    height: 100px;
+    transition: 1s;
+    text-shadow: 2px 2px 0px black;
+}
+
+Footer a:hover 
+{
+  color: white;
+}
